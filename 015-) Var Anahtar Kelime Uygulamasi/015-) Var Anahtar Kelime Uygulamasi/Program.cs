@@ -20,7 +20,7 @@ namespace _015___Var_Anahtar_Kelime_Uygulamasi
 
             // s2 = 10;    Burada s2 ilk tanımlanığında "var" ile stringe dönüştürüldü o yüzden sayısal değer alamaz.
             // Fakat "10" değerini alır. Çünkü string. 
-
+             
 
 
 

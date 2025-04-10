@@ -17,7 +17,7 @@ namespace _014___Convert___Parse_Uygulamaları
 
             string metin1 = "100";
             /* int s1 = metin1; Bu şekilde tür farkından dolayı kabul etmez.
-               int s1 = (int)metin1; Bu şekilde söz vererek de olmuyor. */
+               int s1 = (int)metin1; Bu şekilde söz vererek de olmuyor. */ 
 
             int s1 = int.Parse(metin1);           // Burada diyoruz ki metin1 int olabilir onu çevir o şekilde yaz.
                                                   // Söz vermekten farkı çevirerek içine yazması.

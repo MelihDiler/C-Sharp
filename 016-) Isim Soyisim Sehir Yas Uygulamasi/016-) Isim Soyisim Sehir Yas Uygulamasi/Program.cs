@@ -14,7 +14,7 @@ namespace _016___Isim_Soyisim_Sehir_Yas_Uygulamasi
 
                                       //////////*** ISIM SOYISIM YAS SEHIR UYGULAMASI ***\\\\\\\\\\
 
-            string isim;
+            string isim; 
             string soyisim;
             string sehir;
             string yaşStr;

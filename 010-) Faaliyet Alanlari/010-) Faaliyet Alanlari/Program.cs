@@ -15,11 +15,11 @@ namespace _010___Faaliyet_Alanlari
         static void Main(string[] args)
         {
 
-            //////////*** FAALIYET ALANLARI ***\\\\\\\\\\                 
+                                                      //////////*** FAALIYET ALANLARI ***\\\\\\\\\\                 
 
             string s1 = "Melih Diler";       // S1 stringinin faaliyet alanları içerisinde bulunduğu süslü parantezlerdir.
 
-            s2 = "Panduf Diler";    // S2 üst blockda yer aldığı için alt block olan bu süslü parantez içerisinde değiştirebildik.
+            s2 = "Panduf Diler";             // S2 üst blockda yer aldığı için alt block olan bu süslü parantez içerisinde değiştirebildik.
 
 
         }
@@ -28,7 +28,7 @@ namespace _010___Faaliyet_Alanlari
         {
             // Burada S1 değişkenine ulaşamazsın. Faaliyet alanı dışındadır.
 
-            s2 = "Deneme";          // Burada da üst blockda yer alan değerlere ulaşabildik.
+            s2 = "Deneme";                   // Burada da üst blockda yer alan değerlere ulaşabildik.
 
         }
     }

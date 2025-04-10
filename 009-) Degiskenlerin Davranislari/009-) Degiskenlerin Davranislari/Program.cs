@@ -18,7 +18,7 @@ namespace _009___Degiskenlerin_Davranislari
 
             degiskenVal1 = degiskenVal2;      // Burada Val2'deki değeri Val1'e kopyalar. Güncel olarak sürekli oradan değer almaz.
                                               // Val2 değiştikçe Val1 güncellenmez.
-            degiskenVal2 = "Panduf Diler";    // Val1 hala "Ezgi Diler" dir. 
+            degiskenVal2 = "Panduf Diler";    // Val1 hala "Ezgi Diler" dir.  
 
 
 

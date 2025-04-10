@@ -11,7 +11,7 @@ namespace _011___Isim_Soyisim_Sehir___Alistirma
         static void Main(string[] args)
         {
 
-            //////////*** ISIM SOYISIM SEHIR ***\\\\\\\\\\
+                                                 //////////*** ISIM SOYISIM SEHIR ***\\\\\\\\\\
 
             Console.WriteLine("Merhaba");
             Console.WriteLine();

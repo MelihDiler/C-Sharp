@@ -13,8 +13,8 @@ namespace _008___Date_Time_Degiskeni
 
                                 //////////*** DATE TIME***\\\\\\\\\\
        
-            DateTime tarihSaat = DateTime.Now;  // Şuan ki zamanı verir. Gün / Ay / Yıl /*/ Saat / Dakika / Saniye
-            Console.WriteLine(tarihSaat);
+            DateTime tarihSaat = DateTime.Now;  // Şuan ki zamanı verir. Gün / Ay / Yıl / / Saat / Dakika / Saniye
+            Console.WriteLine(tarihSaat);       // 10.04.2025 19:45:21
             Console.ReadLine();
 
 

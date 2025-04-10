@@ -12,7 +12,7 @@ namespace _013___Object_Degiskeni
         {
 
                                               //////////*** OBJECT ***\\\\\\\\\\
-                                          /////////*** KUTULAMA BOXING ***\\\\\\\\\\
+                                          /////////*** KUTULAMA BOXING ***\\\\\\\\\\ 
                                           
 
             object ob1 = 100;              // Object her türlü nesneyi, veri tipini içine tanımlayabilir.

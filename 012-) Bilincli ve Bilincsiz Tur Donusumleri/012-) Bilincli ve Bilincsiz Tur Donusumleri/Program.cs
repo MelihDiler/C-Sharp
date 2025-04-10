@@ -10,10 +10,10 @@ namespace _012___Bilincli_ve_Bilincsiz_Tur_Donusumleri
     {
         static void Main(string[] args)
         {
-                                           //////////*** BILINCLI TUR DONUSUMU ***\\\\\\\\\\                     
+                                                 //////////*** BILINCLI TUR DONUSUMU ***\\\\\\\\\\                     
 
             byte sayi1 = 100;  // byte 0 ile 255 arası değer alır.
-            // sayi1 = 256;  bu kodu kabul etmez hata verir. Çünkü alabileceği değerden fazla.
+                               // sayi1 = 256;  bu kodu kabul etmez hata verir. Çünkü alabileceği değerden fazla.
 
             int sayi2 = 256;   // int bu değeri alabilecek kapasite de
 
@@ -21,7 +21,7 @@ namespace _012___Bilincli_ve_Bilincsiz_Tur_Donusumleri
                                // tamamını kapsamaktadır. Bu sebeple bilinçli tür dönüşümüdür ve kabul eder.
 
 
-                                           //////////*** BILINCSIZ TUR DONUSUMU ***\\\\\\\\\\
+                                                 //////////*** BILINCSIZ TUR DONUSUMU ***\\\\\\\\\\
 
 
             int sayi4 = 100;
