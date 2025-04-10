@@ -14,7 +14,7 @@ namespace _005___Char_Degiskeni
                                                  //////////*** CHAR ***\\\\\\\\\\
 
             string kullaniciSecimiString = "A";
-            Char kullaniciSecimChar = 'A';              //Char için tek tırnak
+            Char kullaniciSecimChar = 'A';              //Char için tek tırnak 
 
 
 

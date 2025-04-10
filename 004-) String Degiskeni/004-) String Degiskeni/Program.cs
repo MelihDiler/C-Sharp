@@ -23,7 +23,7 @@ namespace _004___String_Degiskeni
             string buyukKarakter = isimSoyisim.ToUpper();           // "EZGİ DİLER" değerini verir.
             string kucukKarakter = isimSoyisim.ToLower();           // "ezgi diler" değerini verir.
             string belirliBirBolum = isimSoyisim.Substring(2, 4);   // 2'den başla 4 karakter al demek. İlk karakter 0'dır. Yani
-                                                                    // 0=E 1=z 2=g 3=i 4="boşluk" 5=D ...   "gi D" değerini verir.
+                                                                    // 0=E 1=z 2=g 3=i 4="boşluk" 5=D ...   "gi D" değerini verir. 
 
 
 

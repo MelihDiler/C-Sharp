@@ -20,7 +20,7 @@ namespace _001___Console_Write___WriteLine
             Console.ReadLine();                     // Bizden değer girmemizi beklediği için ekran kapanmaz açık kalır.
             
 
-
+             
         }
     }
 }

@@ -17,7 +17,7 @@ namespace _003___Degisken_Tanimlama_Yontemleri
             isimsoyisim = "Melih Diler";            // daha sonra değer ata.
 
             //////////*** 2. YOL ***\\\\\\\\\\
-            string şehir = "Istanbul";
+            string şehir = "Istanbul"; 
 
 
 

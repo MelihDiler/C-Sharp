@@ -18,7 +18,7 @@ namespace _002___Debug___Breakpoint
             Console.WriteLine("Satır 3");    // Sarı oku alıp istediğimiz yere götürüp aynı kodu tekrar tekrar çalıştırabiliriz.
             Console.WriteLine("Satır 4");
             Console.WriteLine("Satır 5");
-            Console.ReadLine();
+            Console.ReadLine(); 
             
 
 
