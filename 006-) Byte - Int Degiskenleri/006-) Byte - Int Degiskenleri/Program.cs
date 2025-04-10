@@ -21,8 +21,6 @@ namespace _006___Byte___Int_Degiskenleri
             byte BytemaxValue = byte.MaxValue;   // Cikti: 255
             int IntminValue = int.MinValue;      // Cikti: -2147483648
             int IntmaxValue = int.MaxValue;      // Cikti: 2147483647
-            
-
         }
     }
 }
