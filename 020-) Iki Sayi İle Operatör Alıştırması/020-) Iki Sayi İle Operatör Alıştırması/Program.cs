@@ -20,7 +20,7 @@ namespace _020___Iki_Sayi_İle_Operatör_Alıştırması
 
             Console.Write("Sayı 1 değerini giriniz: ");
             decimal sayi1 = Convert.ToDecimal(Console.ReadLine());     // Burada Convert.ToInt32 demedik.
-            Console.Write("Sayı 2 değerini giriniz: ");                // Çünkü ondalıklı sayıları yuvarlama yapmasını istemedik.
+            Console.Write("Sayı 2 değerini giriniz: ");                // Çünkü ondalıklı sayıları yuvarlama yapmasını istemedik. 
             decimal sayi2 = Convert.ToDecimal(Console.ReadLine());
 
             toplam = sayi1 + sayi2;

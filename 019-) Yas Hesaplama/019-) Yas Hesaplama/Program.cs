@@ -24,7 +24,7 @@ namespace _019___Yas_Hesaplama
 
             int intyil = Convert.ToInt32(stryil);
 
-            int tarih = DateTime.Now.Year;                      //Burada Year dışında başka şeylerde seçebilirsin   
+            int tarih = DateTime.Now.Year;                      //Burada Year dışında başka şeylerde seçebilirsin    
             int yas = tarih - intyil;
 
 

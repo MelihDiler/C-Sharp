@@ -51,14 +51,14 @@ namespace _021___Karsilastirma_ve_Kontrol_Operatorleri
             // Is operatörü                            // Bir nesnenin belirli bir türde olup olmadığını kontrol etmek için kullanılır.
             object o1 = s1;
             bool isKontrol1 = o1 is int;               // o1 içerisinde int değeri saklıyor fakat hala object türündedir.
-            bool isKontrol2 = o1 is string;            // Bu sebeple o1'i int'a çevirmeden örneğin toplamı işleminde kullanamazsın.
+            bool isKontrol2 = o1 is string;            // Bu sebeple o1'i int'a çevirmeden örneğin toplama işleminde kullanamazsın.
             //int d1 = (int)o1;                        // o1'in int'a sığacağını bilip bize güven diyerek bilinçsiz dönüşüm yapıyoruz.
             //int sonuc = d1 + s2;                     // Ardından toplama işleminde kullanabiliyoruz.
             int sonuc = Convert.ToInt32(o1) + s2;      // Ya da o1'i int'a çevirip direkt o1'i de kullanabiliriz.
 
 
             // As operatörü                            // Bir nesneyi belirli bir türe dönüştürmek için kullanılır.
-            // Eğer dönüşüm mümkünse, nesne belirtilen türe dönüştürülür; aksi takdirde null döner.
+            // Eğer dönüşüm mümkünse, nesne belirtilen türe dönüştürülür; aksi takdirde null döner. ConverTo... ise dönüşüm başarısızsa hata döndürür, değer null ise hata vermez, parse dönüşüm başarısızsa da null ise de hata verir.
             // Bu, dönüşüm işlemlerinde güvenli bir yöntemdir çünkü hata fırlatma riski taşımaz.
             string isimSoyisim = "Melih Diler";
             object objectString = isimSoyisim;         // Burada objectString değişkeninin içine "Melih Diler" değerini değişken tipiyle aktaracak.
@@ -66,10 +66,7 @@ namespace _021___Karsilastirma_ve_Kontrol_Operatorleri
 
 
 
-
-
-
-
+            Console.ReadLine();
 
 
         }

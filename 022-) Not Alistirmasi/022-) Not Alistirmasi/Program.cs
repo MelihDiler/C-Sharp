@@ -26,7 +26,7 @@ namespace _022___Not_Alistirmasi
             Console.ReadLine();
             Console.Clear();
 
-            // decimal topla = sinav1 + sinav2 + sinav3;          // Bu uzun yöntemdir.
+            // decimal topla = sinav1 + sinav2 + sinav3;          // Bu uzun yöntemdir. 
             // decimal ortalama = topla / 3;
 
             decimal ortalama = (sinav1 + sinav2 + sinav3) / 3;    // Bu da kısa hali. Parantez içindeki işlemin sonucu parantezin dışına çıkar ve onunla işlem devam eder.

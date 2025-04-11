@@ -15,7 +15,7 @@ namespace _018___Aritmatiksel_Operatorler
 
 
 
-            //*****TOPLAMA OPERATORU*****\\
+                                                           //*****TOPLAMA OPERATORU*****\\
 
             // iki sayısal değer varsa toplama işlemi, en az 1 string varsa metin birleştirme gerçekleştirir.
 

@@ -27,7 +27,7 @@ namespace _023___Kullanici_Adi_ve_Sifre_Kontrolu
             bool dogru = dogruAd == true & dogruSif == true;
 
             Console.WriteLine(dogru);
-            Console.ReadLine();
+            Console.ReadLine(); 
 
 
 
