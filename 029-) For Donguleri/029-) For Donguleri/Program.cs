@@ -26,14 +26,14 @@ namespace _029___For_Donguleri
             // }
             #region For döngüsü genel kullanımı
             for (int i = 0; i <= 10; i++)                  // İkişer ikişer arttırmak için i+=2 yazmalıyız.
-            {                                             // İç içe for döngülerinde sayaç değişken adı değişmeli "i" bir kere yazılabilir.
+            {                                              // İç içe for döngülerinde sayaç değişken adı değişmeli "i" bir kere yazılabilir.
                 Console.WriteLine("Ben bir for döngüsüyüm");
             }
             #endregion
 
             #region Ekran üzerinde 1 - 10 arasındaki değerleri yazdırma.
-            for (int i = 1; i <= 10; i++)                // Sayacı 1'den başlatmamızın sebebi istediğimiz değer 1'den başlayıp 10'a kadar gidecek.
-            {                                             // Şartı "9" yapıp sayacı yine "0" yapmamamızın sebebi ise biz ekrana i değerini yazdıracağız. 
+            for (int i = 1; i <= 10; i++)                  // Sayacı 1'den başlatmamızın sebebi istediğimiz değer 1'den başlayıp 10'a kadar gidecek.
+            {                                              // Şartı "9" yapıp sayacı yine "0" yapmamamızın sebebi ise biz ekrana i değerini yazdıracağız. 
                 Console.WriteLine(i + ". tekrar !");
             }
             Console.ReadLine();
@@ -59,7 +59,7 @@ namespace _029___For_Donguleri
                 if (i % 2 == 0)
                 {
                     // toplam = toplam + i;
-                    toplam += i;                  // Üstteki ile aynı ve kısa halidir.
+                    toplam += i;                           // Üstteki ile aynı ve kısa halidir.
                 }
             }
             Console.WriteLine("Toplam değer: {1}", toplam, toplam2); // Burada direkt toplam yazıp değeri de alabilirdik fakat indeks kullandık.
@@ -142,11 +142,6 @@ namespace _029___For_Donguleri
             Console.ReadLine();                                 // 2'ler, 3. satır 3'lerin çarpım tablosu yer alır. İlkinde ise 1'ler
                                                                 // yukarıdan aşağıya sonra satır boşluk bırakıp 2'ler yukarıdan aşağıya.
             #endregion
-
-
-
-
-
 
 
         }

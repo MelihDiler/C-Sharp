@@ -10,7 +10,7 @@ namespace _027___Not_Ortalamasi_IF__ELSE
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Not ortalaması sistemine hoşgeldiniz...");
+            Console.WriteLine("Not ortalaması sistemine hoşgeldiniz..."); 
 
             Console.Write("İsim ve Soyisim : ");
             string isimSoyisim = Console.ReadLine();

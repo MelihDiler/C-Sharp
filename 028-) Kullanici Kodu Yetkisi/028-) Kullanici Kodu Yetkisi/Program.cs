@@ -15,7 +15,7 @@ namespace _028___Kullanici_Kodu_Yetkisi
             string kullKodu = Console.ReadLine();
 
             kullKodu = kullKodu.ToUpper();           // Büyük küçük harf duyarlılığını sonlandırmış oluyoruz çünkü tüm harfleri büyütüp
-                                                     // sonra tekrar kendisine yazıyor.
+                                                     // sonra tekrar kendisine yazıyor. 
 
             switch (kullKodu)
             {

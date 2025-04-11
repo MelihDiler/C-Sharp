@@ -12,15 +12,15 @@ namespace _026___Dort_Islem_Uygulaması
         {
 
 
-                                                  //////////////////// DÖRT İŞLEM \\\\\\\\\\\\\\\\\\\\\\\\\
-                                             ///////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+            //////////////////// DÖRT İŞLEM \\\\\\\\\\\\\\\\\\\\\\\\\
+            ///////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 
 
             decimal sayi1 = 0;                         // Eğer ki bunları If bloğu içerisinde yazsaydık hata alacaktık. Çünkü içerdeki
             decimal sayi2 = 0;                         // değer dışarı çıkamayacağı için dışarıda tanımladık. Ayrıca "0" değeri vermemizin
-                                                       // sebebi de local değişkenler değer almadan çalışmazlar.
+                                                       // sebebi de değişkenler değer almadan islem yapamazlar. 
 
 
             Console.WriteLine("MENÜ");

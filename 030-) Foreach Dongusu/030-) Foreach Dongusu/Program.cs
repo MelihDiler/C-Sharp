@@ -13,7 +13,7 @@ namespace _030___Foreach_Dongusu
                                                  ////////////////////FOREACH DONGUSU\\\\\\\\\\\\\\\\\\\\
                                             ////////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 
 
-            // Örneğim bir müşteri bende kayıtlı mı diye aynı sql'de odluğu gibi sorgulama işlemini foresch ile yapıyoruz.
+            // Örneğin bir müşteri bende kayıtlı mı diye aynı sql'de odluğu gibi sorgulama işlemini foreach ile yapıyoruz.
 
 
             string[] isimler = new[] { "Melih Diler", "Ezgi Diler", "Panduf Diler", "Defne Diler" };

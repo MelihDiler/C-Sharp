@@ -21,7 +21,7 @@ namespace _032___Do_While_Dongusu
             {
                 Console.WriteLine("Merhaba Do While");
             } while (1 == 2);                                   // 1 sayısı 2ye eşit olmadığı için bir kere çalışır ve ardından şart 
-            Console.ReadLine();                                 // sağlanmadığı için döngüden çıkar.
+            Console.ReadLine();                                 // sağlanmadığı için döngüden çıkar. 
             Console.Clear();
 
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,7 +41,7 @@ namespace _025___Kullanici_kodlari___IF_ELSE
 
             Console.WriteLine("Lütfen kullanıcı kodunuzu giriniz:");
 
-            string kod = Console.ReadLine();
+            string kod = Console.ReadLine();         // string kod = Console.ReadLine().ToUpper(); Bu sekilde tek satirda da olabilirdi.
             kod = kod.ToUpper();                     // Kullanıcının girdiği değerleri alıp tüm harfleri büyütüp tekrar kendisine yazıyor.
 
             if (kod == "ABC" || kod == "123" || kod == "236" || kod == "CMK")
@@ -56,13 +57,6 @@ namespace _025___Kullanici_kodlari___IF_ELSE
                 Console.WriteLine("Hatalı kullanıcı kodu");
             }
             Console.ReadLine();
-
-
-
-
-
-
-
 
         }
     }

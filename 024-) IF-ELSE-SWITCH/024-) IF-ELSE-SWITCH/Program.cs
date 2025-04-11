@@ -59,7 +59,7 @@ namespace _024___IF_ELSE_SWITCH
                                            //////////////////// KARAR YAPILARI (SWITCH) \\\\\\\\\\\\\\\\\\\\
                                       /////////////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-            Console.Write("Hangi Ay :");
+            Console.Write("Hangi Ay :"); 
             string kullaniciGelen = Console.ReadLine();
 
             switch (kullaniciGelen)                             // Tek bir değişkenin sonucuna göre farklı işlemler için kullanılır.
@@ -108,9 +108,8 @@ namespace _024___IF_ELSE_SWITCH
             }
             Console.ReadLine();
 
-
-
             
+
 
 
         }
