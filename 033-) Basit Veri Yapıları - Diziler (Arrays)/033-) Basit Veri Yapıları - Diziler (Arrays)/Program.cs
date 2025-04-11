@@ -15,12 +15,12 @@ namespace _033___Basit_Veri_Yapıları___Diziler__Arrays_
 
             // Sabit boyutlu: Dizinin boyutu oluşturulduktan sonra değiştirilemez.
             // Hızlı erişim: Elemanlara indeks numarası ile hızlı erişim sağlar.
-            // Avantajlar: Hafızada verimli ve elemanlara hızlı erişim sunar. 
+            // Avantajlar: Hafızada verimli yer kaplar ve elemanlara hızlı erişim sunar. 
             // Dezavantajlar: Boyut sabit olduğu için dinamik veri yönetimi zordur.
             // Dizinin boyutunu arttırmak için daha büyük boyutlu dizi tanımlayıp var olanı bunun içerisine aktarabiliriz.
             // Koleksiyonlarda limit otomatik artar
 
-            string[] ogrenciIsimleriListesi = new string[5];                    // string türünde dizi tanımladık, ardından buna                                                                             ogrenciIsimleriListesi adını verdik, sonrasında ise new                                                                      diyerek bellekte 5 elemanlı bir string dizi oluştur dedik.
+            string[] ogrenciIsimleriListesi = new string[5];                    // string türünde dizi tanımladık, ardından buna ogrenciIsimleriListesi adını verdik, sonrasında ise new diyerek bellekte 5 elemanlı bir string dizi oluştur dedik.
             // Nasıl değer eklenir?
             // indeks değeri 0'dan başlar.
 
