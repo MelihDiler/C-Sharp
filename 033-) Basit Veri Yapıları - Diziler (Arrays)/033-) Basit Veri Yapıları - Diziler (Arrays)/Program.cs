@@ -14,6 +14,7 @@ namespace _033___Basit_Veri_Yapıları___Diziler__Arrays_
 
 
             // Sabit boyutlu: Dizinin boyutu oluşturulduktan sonra değiştirilemez.
+            // Tum elemanlar ayni veri tipinde olmalidir.
             // Hızlı erişim: Elemanlara indeks numarası ile hızlı erişim sağlar.
             // Avantajlar: Hafızada verimli yer kaplar ve elemanlara hızlı erişim sunar. 
             // Dezavantajlar: Boyut sabit olduğu için dinamik veri yönetimi zordur.
