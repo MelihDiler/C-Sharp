@@ -12,7 +12,13 @@ namespace _014___Convert___Parse_Uygulamaları
         {
 
                                          //////////*** CONVERT - PARSE ***\\\\\\\\\\
-            
+                                         
+            //  ✅ Parse → Hatalara karşı en hassas, null veya hatalı veri varsa direkt patlar.
+
+            //  ✅ Convert.To... → null’a karşı toleranslı ama "abc" gibi hatalı veri varsa yine patlar.
+
+            //  ✅ TryParse → En güvenli, ne verirsen ver asla patlamaz, sana true / false verir.
+
             //** Örnek 1 **\\
 
             string metin1 = "100";
