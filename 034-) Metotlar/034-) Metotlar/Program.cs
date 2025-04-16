@@ -16,7 +16,7 @@ namespace _034___Metotlar
             Console.WriteLine(donenDeger);
             Console.ReadLine();
         }
-        //  Metotlar Main icine yazilmaz. Sadece ufak kisa local metotlar yazilabilir ve static olamazlar.
+        //  Metotlar Main icine yazilmaz. Sadece ufak kisa local metotlar yazilabilir ve static olamazlar. 
 
 
 
