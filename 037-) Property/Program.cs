@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _037___Property
 {
     internal class Program
-    {//  Kapsullemenin bir diger yontemi...
+    {//  Kapsullemenin modern yontemi...
         static void Main(string[] args)
         {
 
