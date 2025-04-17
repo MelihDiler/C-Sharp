@@ -15,7 +15,7 @@ namespace _035___Classlar
         public string arabaRengi;
 
 
-        //  Yapici metotdur. ctor tab tab ile otomatik olusturulur. class ismi ile ayni olmak zorundadir. Nesne olusturulunca ilk olarak otomatik calisir.
+        //  Yapici metotdur. ctor tab tab ile otomatik olusturulur. class ismi ile ayni olmak zorundadir. Nesne olusturulunca ilk olarak otomatik calisir. Yapici metot static ise erisim belirleyicisi olmaz, parametre almaz ve ilk calisan yapici metot o dur. Ayrica birden fazla nesne uretilirse sadece ilkinde calisir digerlerinde calismaz.
         public Araba(int _kapiSayisi, string _arabaModel, string _arabaRengi)
         {
             kapiSayisi = _kapiSayisi;
