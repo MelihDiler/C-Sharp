@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035-) Classlar", "035-) Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "036-) Kapsulleme", "036-) Kapsulleme\036-) Kapsulleme.csproj", "{F529A6CB-21DC-4907-84AF-535E92A6C286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "037-) Property", "037-) Property\037-) Property.csproj", "{F2066155-91EE-442C-91F4-0ECFBDA8F275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{F529A6CB-21DC-4907-84AF-535E92A6C286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F529A6CB-21DC-4907-84AF-535E92A6C286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F529A6CB-21DC-4907-84AF-535E92A6C286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2066155-91EE-442C-91F4-0ECFBDA8F275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2066155-91EE-442C-91F4-0ECFBDA8F275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2066155-91EE-442C-91F4-0ECFBDA8F275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2066155-91EE-442C-91F4-0ECFBDA8F275}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
