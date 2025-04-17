@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace _037___Property
 {
-    internal class Musteri
+    public class Musteri
     {
+
+        private int kilo;
+
+        public int KILO 
+        {
+            get 
+            {
+                return kilo;
+            }
+            set 
+            {
+                kilo = value;                              //  value = Program sayfasinda atadigim degerdir.
+            }
+        }
+
+
     }
 }
