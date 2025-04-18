@@ -11,7 +11,7 @@ namespace _035___Classlar
         static void Main(string[] args)
         {
 
-            // ClassIsmi referans_Isim = new ClassIsmi();
+            // ClassIsmi referans_Isim = new ClassIsmi();         Buradaki ilk yazilan ClassIsmi aslinda tip belirleyicisidir. int, string, double gibi. Ikinci ClassIsmi ise bu siniftan new ile bir nesne olustur. Yani ClassIsmi sinifindan new ile bir nesne olustur ClassIsmi tipinde tanimladigim referans_Isim degiskenine ata diyorum.
             Araba araba1 = new Araba(4, "Kirmizi", "Renault");//  Bu sekilde parametreli de verebiliriz. Ya da parametresiz verip asagida da tanimlayabilirsin. Parametreli temizdir
 
             //araba1.kapiSayisi = 4;

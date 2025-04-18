@@ -20,9 +20,12 @@ namespace _041___Cok_Bicimlilik___Polymorphsim
 
             Console.ReadLine();
 
+            //-------------------------------- ONEMLI --------------------------------//
+            Sekil a = new Kare(); 
+            Kare b = new Kare();
 
-
-
+            // a.ekstraDeger = 20;     HATA → Çünkü a Sekil türünde tanımlı. Kare sinifinin icindekine ulasamaz.
+            b.ekstraDeger = 20;    //  b Kare tipinde oldugu icin Kare sinifindakilere erisebilir.
         }
     }
 }
