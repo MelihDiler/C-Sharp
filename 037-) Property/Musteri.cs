@@ -11,7 +11,7 @@ namespace _037___Property
 
         private int kilo;
 
-        public int KILO 
+        public int KILO                                    //  prop TAB TAB  ile kisayoldan olusturulabilir.
         {
             get 
             {
