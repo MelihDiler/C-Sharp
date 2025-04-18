@@ -24,18 +24,35 @@ namespace _039___Array_List
             int count = koleksiyon.Count;                  //  Array Listín eleman sayisini dondurur.
             //koleksiyon.Clear();                          //  Array Listin icini tamamen temizler.
             koleksiyon.Insert(2, "Simba");                 //  Ikinci indekse Simba degerini ekle demek.
+            //koleksiyon.Reverse();                        //  Dizimizikomple ters cevirir.
+            
 
             foreach (var a in koleksiyon)                  //  var kullanmamizin sebebi turu gorup kendi otomatik belirlesin diye.
             {
                 Console.WriteLine(a);
             }
+            
             Console.WriteLine(count);
             Console.WriteLine(koleksiyon.Contains("Defne"));//  Array Listin icinde var mi kontrolu yapar. Varsa True dondurur.
             Console.WriteLine(koleksiyon.IndexOf("Panduf"));//  Cikti = 1 cunku ilk Melih degeri silinmisti onceki satirlarda. Eger ki deger yoksa -1 doner.
             Console.ReadLine();
 
+            ArrayList rakamlar = new ArrayList();
 
+            rakamlar.Add(5);
+            rakamlar.Add(3);
+            rakamlar.Add(1);
+            rakamlar.Add(100);
+            rakamlar.Add(2);
 
+            rakamlar.Sort();                               //  ArrayListí kucukten buyuge siralar.
+
+            foreach (var a in rakamlar)                  
+            {
+                Console.WriteLine(a);                      //  Cikti: 1,2,3,5,100
+            }
+
+            Console.ReadLine();
 
 
 
