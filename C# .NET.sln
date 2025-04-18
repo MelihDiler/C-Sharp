@@ -81,7 +81,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "038-) Static", "038-) Stati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "039-) Array List", "039-) Array List\039-) Array List.csproj", "{05DDBED9-CB08-4ADD-8A07-1640AC644AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "040-) Miras Alma", "040-) Miras Alma\040-) Miras Alma.csproj", "{0C25A5BF-7E78-4D7D-8F97-0B086C93E2B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "040-) Miras Alma - Inheritance", "040-) Miras Alma\040-) Miras Alma - Inheritance.csproj", "{0C25A5BF-7E78-4D7D-8F97-0B086C93E2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "041-) Cok Bicimlilik - Polymorphsim", "041-) Cok Bicimlilik - Polymorphsim\041-) Cok Bicimlilik - Polymorphsim.csproj", "{58AA08DA-F32C-442F-8042-47E7CF606701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{0C25A5BF-7E78-4D7D-8F97-0B086C93E2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C25A5BF-7E78-4D7D-8F97-0B086C93E2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C25A5BF-7E78-4D7D-8F97-0B086C93E2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AA08DA-F32C-442F-8042-47E7CF606701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AA08DA-F32C-442F-8042-47E7CF606701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AA08DA-F32C-442F-8042-47E7CF606701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AA08DA-F32C-442F-8042-47E7CF606701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
