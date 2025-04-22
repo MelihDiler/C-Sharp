@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace _035___Classlar
 {// Dort cesit erisim belirleyicisi var: public -- private -- protected -- internal
- // Public: Her yerden erisilir.
- // Private: Sadece tanımlandığı class içinde erişilebilir.
+ // Erişim Türü    Tanımlandığı Class  Türeyen Class   Dış Class
+ // private	               ✅	             ❌	          ❌
+ // protected	           ✅	             ✅	          ❌
+ // internal	           ✅              	 ✅	          ✅ (aynı assembly)
+ // public	               ✅             	 ✅	          ✅
     public class Araba
     {
         public int kapiSayisi;
