@@ -9,7 +9,7 @@ namespace _041___Cok_Bicimlilik___Polymorphsim
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {//  Cok bicimlilikte amac sudur: Eger ki ortak ozellikler varsa bunlari ana sinifa yaz bazilarinda farkli bazilarinda ayni olacaksa ayni olani virtual sekilde yaz ki farkli olanlar override edebilsin.
 
             Kare kare = new Kare();
             Daire daire = new Daire();
@@ -23,9 +23,10 @@ namespace _041___Cok_Bicimlilik___Polymorphsim
             //-------------------------------- ONEMLI --------------------------------//
             Sekil a = new Kare(); 
             Kare b = new Kare();
-
-            // a.ekstraDeger = 20;     HATA → Çünkü a Sekil tipinde tanımlı. Kare sinifinin icindekine ulasamaz.
+            
+            //a.ekstraDeger = 20;      HATA → Çünkü a Sekil tipinde tanımlı. Kare sinifinin icindekine ulasamaz.
             b.ekstraDeger = 20;    //  b Kare tipinde oldugu icin Kare sinifindakilere erisebilir.
+            
         }
     }
 }

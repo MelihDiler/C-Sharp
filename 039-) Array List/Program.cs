@@ -45,7 +45,7 @@ namespace _039___Array_List
             rakamlar.Add(100);
             rakamlar.Add(2);
 
-            rakamlar.Sort();                               //  ArrayListí kucukten buyuge siralar.
+            //rakamlar.Sort();                               //  ArrayListí kucukten buyuge siralar.
 
             foreach (var a in rakamlar)                  
             {
@@ -53,10 +53,6 @@ namespace _039___Array_List
             }
 
             Console.ReadLine();
-
-
-
-
         }
     }
 }

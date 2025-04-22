@@ -10,7 +10,7 @@ namespace _043___Abstract_Class
     {
         public void metot1()
         {
-            Console.WriteLine("metot1 calisiti");          //  metodun boy'si
+            Console.WriteLine("metot1 calisiti");          //  metodun body'si
         }
 
         public abstract void metot2();                     //  metodun imzasi

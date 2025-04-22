@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "044-) Abstract Class & Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "045-) Enum", "045-) Enum\045-) Enum.csproj", "{460AF990-3730-4D98-8693-D917357786BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "046-) Generic Collections", "046-) Generic Collections\046-) Generic Collections.csproj", "{79A961C5-6CEB-4356-9E41-1C8E948EB5F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{460AF990-3730-4D98-8693-D917357786BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460AF990-3730-4D98-8693-D917357786BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460AF990-3730-4D98-8693-D917357786BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A961C5-6CEB-4356-9E41-1C8E948EB5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A961C5-6CEB-4356-9E41-1C8E948EB5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A961C5-6CEB-4356-9E41-1C8E948EB5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A961C5-6CEB-4356-9E41-1C8E948EB5F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
